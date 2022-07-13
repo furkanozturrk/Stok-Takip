@@ -1,0 +1,11 @@
+C:\Users\Furkan\Desktop\StokTakip\StokTakip\StokDataModel\bin\Debug\StokDataModel.dll
+C:\Users\Furkan\Desktop\StokTakip\StokTakip\StokDataModel\bin\Debug\StokDataModel.pdb
+C:\Users\Furkan\Desktop\StokTakip\StokTakip\StokDataModel\obj\Debug\StokDataModel.csprojAssemblyReference.cache
+C:\Users\Furkan\Desktop\StokTakip\StokTakip\StokDataModel\obj\Debug\StokDataModel.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Desktop\StokTakip\StokTakip\StokDataModel\obj\Debug\StokDataModel.dll
+C:\Users\Furkan\Desktop\StokTakip\StokTakip\StokDataModel\obj\Debug\StokDataModel.pdb
+C:\Users\Furkan\Desktop\StokTakip\StokDataModel\bin\Debug\StokDataModel.dll
+C:\Users\Furkan\Desktop\StokTakip\StokDataModel\bin\Debug\StokDataModel.pdb
+C:\Users\Furkan\Desktop\StokTakip\StokDataModel\obj\Debug\StokDataModel.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Desktop\StokTakip\StokDataModel\obj\Debug\StokDataModel.dll
+C:\Users\Furkan\Desktop\StokTakip\StokDataModel\obj\Debug\StokDataModel.pdb

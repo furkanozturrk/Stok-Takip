@@ -1,0 +1,36 @@
+﻿@using StokDataModel
+
+@model List<Kategori>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <td>KategoriID</td>
+        <td>Kategori Adı</td>
+        <td>Sil</td>
+        <td>Güncelle</td>
+
+    </tr>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.KategoriId</td>
+                <td>@item.KategoriAd</td>
+              
+                <td>
+                    <a href="/Kategori/Sil/@item.KategoriId" class="btn btn-danger">Sil</a>
+                </td>
+                <td>
+                    <a href="/Kategori/KategoriGetir/@item.KategoriId" class="btn btn-success">Güncelle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Kategori/KategoriEkle" class="btn btn-primary">Yeni Kategori Ekle</a>

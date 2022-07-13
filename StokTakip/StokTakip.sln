@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokTakip", "StokTakip\StokTakip.csproj", "{F6570BAE-6837-4999-A84F-B4AE4BB60D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokData", "StokData\StokData.csproj", "{1504AC7B-C24D-4B4F-ACAE-264133B3852D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StokDataModel", "StokDataModel\StokDataModel.csproj", "{260DBFF4-4DE5-4E53-A888-C541B65EBE88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6570BAE-6837-4999-A84F-B4AE4BB60D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6570BAE-6837-4999-A84F-B4AE4BB60D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6570BAE-6837-4999-A84F-B4AE4BB60D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6570BAE-6837-4999-A84F-B4AE4BB60D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1504AC7B-C24D-4B4F-ACAE-264133B3852D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1504AC7B-C24D-4B4F-ACAE-264133B3852D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1504AC7B-C24D-4B4F-ACAE-264133B3852D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1504AC7B-C24D-4B4F-ACAE-264133B3852D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260DBFF4-4DE5-4E53-A888-C541B65EBE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260DBFF4-4DE5-4E53-A888-C541B65EBE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260DBFF4-4DE5-4E53-A888-C541B65EBE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260DBFF4-4DE5-4E53-A888-C541B65EBE88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D9B900C-CE25-4123-BC68-D69791A8A3B7}
+	EndGlobalSection
+EndGlobal

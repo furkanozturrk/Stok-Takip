@@ -1,0 +1,44 @@
+﻿
+@model StokDataModel.Urun
+
+@{
+    ViewBag.Title = "UrunGetir";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+@using (Html.BeginForm("Güncelle", "urun", FormMethod.Post))
+{
+<div class="form-group" >
+ 
+
+    @Html.HiddenFor(k => k.UrunId)
+    @Html.HiddenFor(k => k.UrunId, new { @class = "form-control" })
+
+    @Html.LabelFor(k => k.UrunAd)
+    @Html.TextBoxFor(k => k.UrunAd, new { @class = "form-control" })
+
+    @Html.LabelFor(k => k.UrunKategori)
+    @Html.TextBoxFor(k => k.UrunKategori, new { @class = "form-control" })
+
+
+    @Html.LabelFor(k => k.Fiyat)
+    @Html.TextBoxFor(k => k.Fiyat, new { @class = "form-control" })
+
+
+    @Html.LabelFor(k => k.Marka)
+    @Html.TextBoxFor(k => k.Marka, new { @class = "form-control" })
+
+
+    @Html.LabelFor(k => k.Stok)
+    @Html.TextBoxFor(k => k.Stok, new { @class = "form-control" })
+
+    <br />
+    <div>
+
+        <button class="btn btn-warning">Ürün Güncelle</button>
+
+    </div>
+</div>
+
+}
+
+
